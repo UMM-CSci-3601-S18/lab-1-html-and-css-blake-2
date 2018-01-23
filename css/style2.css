@@ -7,7 +7,69 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
-    padding: 30px;
-    background-color: #ffffff;
+body
+{
+  padding: 30px;
+  background-color: #ffffff;
+  background-image: url(http://laoblogger.com/images/open-scroll-clipart-4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#main-title
+{
+  /*Assuming max is 1920 x 1080 */
+  color: black;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 10.25vw;
+}
+
+#pslo
+{
+  padding-top: 1.25vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1.25vw;
+}
+
+#courses
+{
+  padding-top: 1.25vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1.25vw;
+}
+
+#faculty
+{
+  padding-top: 1.25vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1.25vw;
+}
+
+#validation
+{
+  padding-top: 1.25vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1.25vw;
+}
+
+#faculty-list
+{
+  display: block;
+}
+#faculty>ul>li
+{
+  display: inline-block;
+}
+
+#style
+{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: block;
 }
