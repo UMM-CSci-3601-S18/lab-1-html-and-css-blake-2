@@ -9,11 +9,13 @@ use float to make something locate itself on the right or left
 
 body
 {
-  padding: 30px;
-  background-color: #ffffff;
-  background-image: url(http://laoblogger.com/images/open-scroll-clipart-4.jpg);
+  padding: 2.77777vw;
+  background-color: #ddd090;
+  background-image: url('http://clipartix.com/wp-content/uploads/2016/04/Free-scroll-clipart-2.gif');
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* can't get bg scroll to work :( */
 }
 
 #main-title
@@ -22,7 +24,7 @@ body
   color: black;
   font-family: monospace;
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vw;
   padding-top: 10.25vw;
 }
 
@@ -42,6 +44,11 @@ body
   font-size: 1.25vw;
 }
 
+#courses>ul>li
+{
+
+}
+
 #faculty
 {
   padding-top: 1.25vw;
@@ -55,7 +62,7 @@ body
   padding-top: 1.25vw;
   padding-left: 5vw;
   padding-right: 5vw;
-  font-size: 1.25vw;
+  font-size: 1vw;
 }
 
 #faculty-list
@@ -69,7 +76,31 @@ body
 
 #style
 {
+  padding-top: 1.25vw;
   padding-left: 5vw;
   padding-right: 5vw;
+  font-size: 1.25vw;
   display: block;
 }
+
+#style>ul>li
+{
+  display: inline-block;
+}
+
+.pic
+{
+  width: 15vw;
+}
+
+
+/*h2
+{
+  text-align: center;
+}
+
+h6
+{
+  text-align: center;
+}
+*/
