@@ -8,6 +8,7 @@ body
   background-color: #9bbc0f;
   font-family: 'Press Start 2P', cursive;
   color: #0f380f;
+
 }
 
 #main-title
@@ -17,22 +18,21 @@ body
 
 #pslo
 {
-  margin: 10px;
-  padding: 30px;
+  margin: .52vw;
+  padding: 1.56vw;
+  max-width: 88.32vw;
   border: 5px solid;
   border-radius: 10px;
-  display: inline-block;
-  max-width: 40vw;
 }
 
 #courses
 {
-  margin: 10px;
-  padding: 30px;
+  margin: .52vw;
+  padding: 1.56vw;
+  max-width: 88.32vw;
   border: 5px solid;
   border-radius: 10px;
-  display: inline-block;
-  max-width: 40vw;
+  font-size: 1vw;
 }
 
 #faculty
