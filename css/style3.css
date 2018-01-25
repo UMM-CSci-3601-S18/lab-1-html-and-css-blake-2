@@ -4,7 +4,7 @@
 
 body
 {
-  padding: 30px;
+  padding: 1.56vw;
   background-color: #9bbc0f;
   font-family: 'Press Start 2P', cursive;
   color: #0f380f;
@@ -14,25 +14,56 @@ body
 #main-title
 {
   text-align: center;
+  font-size: 3vw;
 }
+
+
 
 #pslo
 {
   margin: .52vw;
   padding: 1.56vw;
-  max-width: 88.32vw;
-  border: 5px solid;
-  border-radius: 10px;
+  max-width: 40vw;
+  border: .27vw solid;
+  border-radius: .52vw;
+  font-size: 1vw;
+  display: inline-block;
+}
+
+#pslo>ol
+{
+  margin: 2vw;
+  padding: 2vw;
 }
 
 #courses
 {
   margin: .52vw;
   padding: 1.56vw;
-  max-width: 88.32vw;
-  border: 5px solid;
-  border-radius: 10px;
+  max-width: 40vw;
+  max-height: 40vw;
+  border: .27vw solid;
+  border-radius: .52vw;
   font-size: 1vw;
+  display: inline-block;
+}
+
+#courses>ul
+{
+  margin: 1vw;
+  padding: 1vw;
+}
+
+#courses>ul>li>ul
+{
+  margin: 1vw;
+  padding: 0;
+}
+
+#courses>ul>li>ul>li>ul
+{
+  margin: 1vw;
+  padding: 0;
 }
 
 #faculty
@@ -40,8 +71,9 @@ body
   margin: .52vw;
   padding: 1.56vw;
   max-width: 88.32vw;
-  border: 5px solid;
-  border-radius: 10px;
+  border: .27vw solid;
+  border-radius: .52vw;
+  font-size: 1vw;
 }
 
 #faculty>ul>li
@@ -59,18 +91,17 @@ img.pic
 
 #validation
 {
-  margin: 10px;
-  padding: 30px;
-  max-width: 40vw;
+  margin: .52vw;
+  padding: 1.56vw;
+  max-width: 88.32vw;
   border: 5px solid;
   border-radius: 10px;
+  font-size: 1vw;
 }
 
 #style
 {
-  margin: 10px;
-  padding: 30px;
-  max-width: 40vw;
-  border: 5px solid;
-  border-radius: 10px;
+  margin: .52vw;
+  padding: 1.56vw;
+  font-size: 1vw;
 }
