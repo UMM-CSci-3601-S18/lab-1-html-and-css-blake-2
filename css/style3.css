@@ -21,6 +21,8 @@ body
   padding: 30px;
   border: 5px solid;
   border-radius: 10px;
+  float: left;
+  max-width: 40vw;
 }
 
 #courses
@@ -29,22 +31,24 @@ body
   padding: 30px;
   border: 5px solid;
   border-radius: 10px;
+  float: right;
+  max-width: 40vw;
 }
 
-h2
-{
-  text-align: center;
-}
-
-#faculty-list
-{
-  margin: 10px;
-  padding: 30px;
-  border: 5px solid;
-  border-radius: 10px;
-  display: block;
-}
 #faculty>ul>li
 {
+  border: 10px solid;
+  float:left;
+  max-width: 40vw;
   display: inline-block;
+}
+
+#validation
+{
+  float:right;
+}
+
+#style
+{
+  float:left;
 }
