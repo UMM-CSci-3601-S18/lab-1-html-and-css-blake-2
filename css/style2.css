@@ -1,10 +1,19 @@
 body
 {
-  padding: 2.77777vw;
+  padding: 0;
   background-color: #ddd090;
+  /* used background-image to import a scroll picture to
+  use as the background */
   background-image: url('http://clipartix.com/wp-content/uploads/2016/04/Free-scroll-clipart-2.gif');
+  /* background-size is used here to make sure that our bg
+   image resizes to fit the screen */
   background-size: 100%;
+  /* background-repeat is set to no-repeat so that there is
+   only one instance of the scroll picture in the background */
   background-repeat: no-repeat;
+  /* background-attachment is set to scroll so that the background
+   does not stay static when the user scrolls down the page. Instead, the
+   image will scroll with the content*/
   background-attachment: scroll;
 }
 
@@ -14,62 +23,105 @@ body
   font-family: monospace;
   text-align: center;
   font-size: 3vw;
-  padding-top: 10.25vw;
+  padding-top: 12vw;
 }
 
 #pslo
 {
-  padding-top: 1vw;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 1.25vw;
+}
+
+#pslo>ol
+{
+  margin: 1vw;
+  padding: 1vw;
 }
 
 #courses
 {
-  padding-top: 0.75vw;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 1.25vw;
 }
 
-#courses>ul>li
+#courses>ul
 {
+  margin: 1vw;
+  padding: 1vw;
+}
 
+#courses>ul>li>ul
+{
+  margin: 1vw;
+  padding: 0;
+}
+
+/* nesting of lists and list items allows us to affect
+ the nested bullet points that appear throughout the page.
+ We use this to keep them properly aligned no matter the resolution.
+ If we did not do this, then they would stray to the right as the page
+ scaled down, since the default alignment is based on pixels. */
+#courses>ul>li>ul>li>ul
+{
+  margin: 1vw;
+  padding: 0;
 }
 
 #faculty
 {
-  padding-top: 1vw;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 1.25vw;
-}
-
-#validation
-{
-  padding-top: 1.25vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  font-size: 1vw;
 }
 
 #faculty-list
 {
   display: block;
 }
+
+#faculty>ul
+{
+  margin: 1vw;
+  padding: 1vw;
+}
+
 #faculty>ul>li
 {
   display: inline-block;
+  padding: .15625vw;
+  margin: .15625vw;
+}
+
+#validation
+{
+  padding-top: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1vw;
+}
+
+ul.card-text
+{
+  margin: 0;
+  padding: 0;
+  padding-left: 2vw;
 }
 
 #style
 {
-  padding-top: 1.25vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-top: 0;
+  padding-left: 2vw;
   font-size: 1.25vw;
   display: block;
+}
+
+#style>ul
+{
+  margin: 0;
+  padding: 0;
+  padding-left: 3vw;
 }
 
 #style>ul>li
@@ -81,15 +133,3 @@ body
 {
   width: 15vw;
 }
-
-
-/*h2
-{
-  text-align: center;
-}
-
-h6
-{
-  text-align: center;
-}
-*/
