@@ -9,6 +9,7 @@ body
   color: #0f380f;
   font-size: 0;
   padding: 1vw;
+
 }
 
 #main-title
@@ -23,14 +24,18 @@ body
 {
   margin: .52vw;
   padding: 1.56vw;
+  /* max-width limits used to limit the width of pslo and courses sections
+    so that we may display them side by side at different resolutions*/
   max-width: 40vw;
-  max-height: 32vw;
+  /* height used to keep pslo and courses sections properly aligned at the bottom */
+  height: 35vw;
   border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
   /* inline-block used so that we may display pslo and courses sections
    side by side, even at different resolutions */
   display: inline-block;
+  /* vertical-align used to keep pslo and coursed sections properly aligned at the top */
   vertical-align: top;
 }
 
@@ -45,7 +50,7 @@ body
   margin: .52vw;
   padding: 1.56vw;
   max-width: 40vw;
-  max-height: 32vw;
+  height: 35vw;
   border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
@@ -77,10 +82,17 @@ body
 {
   margin: .52vw;
   padding: 1.56vw;
-  max-width: 88.32vw;
+  max-width: 84.7vw;
   border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
+
+}
+
+#faculty>ul
+{
+  margin: 1vw;
+  padding: 1vw;
 }
 
 #faculty>ul>li
@@ -101,10 +113,16 @@ img.pic
 {
   margin: .52vw;
   padding: 1.56vw;
-  max-width: 88.32vw;
-  border: .26041vw solid;
+  max-width: 84.7vw;
+  border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
+}
+
+ul.card-text
+{
+  margin: 1vw;
+  padding: 1vw;
 }
 
 #style
@@ -112,4 +130,10 @@ img.pic
   margin: .52vw;
   padding: 1.56vw;
   font-size: 1vw;
+}
+
+#style>ul
+{
+  margin: 1vw;
+  padding: 1vw;
 }

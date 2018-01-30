@@ -6,12 +6,10 @@ body
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  /* can't get bg scroll to work :( */
 }
 
 #main-title
 {
-  /*Assuming max is 1920 x 1080 */
   color: black;
   font-family: monospace;
   text-align: center;
