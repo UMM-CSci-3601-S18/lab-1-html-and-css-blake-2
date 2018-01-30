@@ -4,11 +4,11 @@
 
 body
 {
-  padding: 1.56vw;
   background-color: #9bbc0f;
   font-family: 'Press Start 2P', cursive;
   color: #0f380f;
-
+  font-size: 0;
+  padding: 1vw;
 }
 
 #main-title
@@ -24,10 +24,14 @@ body
   margin: .52vw;
   padding: 1.56vw;
   max-width: 40vw;
+  max-height: 32vw;
   border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
+  /* inline-block used so that we may display pslo and courses sections
+   side by side, even at different resolutions */
   display: inline-block;
+  vertical-align: top;
 }
 
 #pslo>ol
@@ -41,11 +45,12 @@ body
   margin: .52vw;
   padding: 1.56vw;
   max-width: 40vw;
-  max-height: 40vw;
+  max-height: 32vw;
   border: .27vw solid;
   border-radius: .52vw;
   font-size: 1vw;
   display: inline-block;
+  vertical-align: top;
 }
 
 #courses>ul
@@ -60,6 +65,8 @@ body
   padding: 0;
 }
 
+/* nesting of unordered lists so that we may affect
+ the nested bullet points in the courses section */
 #courses>ul>li>ul>li>ul
 {
   margin: 1vw;
@@ -79,14 +86,15 @@ body
 #faculty>ul>li
 {
   display: inline-block;
-  padding: 3px;
-  margin: 3px;
+  padding: .15625vw;
+  margin: .15625vw;
 }
 
 img.pic
 {
-  border: 5px solid;
-  padding: 3px;
+  border: .26041vw solid;
+  padding: .15625vw;
+  width: 15vw;
 }
 
 #validation
@@ -94,8 +102,8 @@ img.pic
   margin: .52vw;
   padding: 1.56vw;
   max-width: 88.32vw;
-  border: 5px solid;
-  border-radius: 10px;
+  border: .26041vw solid;
+  border-radius: .52vw;
   font-size: 1vw;
 }
 
