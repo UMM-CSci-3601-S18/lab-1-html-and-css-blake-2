@@ -70,8 +70,6 @@ body
   padding: 0;
 }
 
-/* nesting of unordered lists so that we may affect
- the nested bullet points in the courses section */
 #courses>ul>li>ul>li>ul
 {
   margin: 1vw;
@@ -102,6 +100,10 @@ body
   margin: .15625vw;
 }
 
+/* using the class .pic allows us to affect all the pictures on the page
+  (here it's just the faculty pictures). We use this to allow us to give
+  the faculty pictures borders and to keep them properly scaled and
+  spaced as the resolution changes*/
 img.pic
 {
   border: .26041vw solid;
